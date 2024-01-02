@@ -23,5 +23,60 @@ body{
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     background-color:burlywood;
+    border: none;
     padding: 20px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: 900;
+}
+ul li{
+    font-size: 20px;
+}
+ul, ol{
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+figure img{
+    border-radius: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 40px;
+    background-color:burlywood;
+    border: none;
+    padding: 20px;
+}
+/* here is the form container styles  */
+form{
+    margin-bottom: 100px;
+    background-color: rgba(179, 103, 11, 0.233);
+    padding: 20px;
+    border-radius: 5px;
+}
+form fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+form button{
+    background-color:rgb(128, 5, 122);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+form button:hover{
+    border: whitesmoke;
+}
+input[type="text"]{
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
 }
