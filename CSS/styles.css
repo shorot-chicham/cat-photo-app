@@ -6,3 +6,14 @@ body{
     margin-right: auto;
 }
 /* here is the header container styles  */
+.header{
+    text-align: center;
+    text-decoration: overline;
+    background-color: coral;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(202, 113, 81);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(109, 83, 156);
+}
